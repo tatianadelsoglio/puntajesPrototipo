@@ -1,47 +1,25 @@
 import React from 'react';
 import './index.css';
-import { Select } from 'antd';
-import 'antd/dist/antd.css';
-
-const { Option } = Select;
-function onChange(value) {
-  console.log(`selected ${value}`);
-}
-
-function onBlur() {
-  console.log('blur');
-}
-
-function onFocus() {
-  console.log('focus');
-}
-
-function onSearch(val) {
-  console.log('search:', val);
-}
+import Seleccion from './componentes/seleccion';
 
 function App() {
   return (
     <>
       <div className="contenedor">
-        <Select
-          showSearch
-          style={{ width: 200 }}
-          placeholder="Select a person"
-          optionFilterProp="children"
-          onChange={onChange}
-          onFocus={onFocus}
-          onBlur={onBlur}
-          onSearch={onSearch}
-          filterOption={(input, option) =>
-            option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
-          }
-        >
-          <Option value="jack">Jack</Option>
-          <Option value="lucy">Lucy</Option>
-          <Option value="tom">Tom</Option>
-        </Select>
+
+        <Seleccion />
+
       </div>
+
+      <div id='circulo1'></div>
+      <div id='circulo2'></div>
+      <div id='circulo3'></div>
+      <div id='circulo4'></div>
+      <div id='circulo5'></div>
+      <div id='circulo6'></div>
+      <div id='circulo7'></div>
+      <div id='circulo8'></div>
+
   </>
   );
 }
