@@ -100,9 +100,233 @@
   top: -5%;
 }
 
-.contenedor{
-  max-width: 600px;
+.contenedor_seleccion{
   margin: 5rem 40rem;
   text-align: center;
+}
+
+#uno{
+  width: 200px; 
+  height: 32px;
+  margin-top: 80px;
+}
+
+#dos{
+  width: 200px; 
+  height: 32px;
+  margin-top: 20px;
+}
+
+#tres{
+  width: 200px; 
+  height: 32px;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 700px){
+
+  .contenedor_seleccion{
+    margin:5rem 30rem;
+    text-align: center;
+  }
+  
+  #circulo1{
+    height: 247px;
+    width: 247px;
+    background: #4C94AB;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-75px);
+    bottom: -5%;
+  }
+  
+  #circulo2{
+    height: 129px;
+    width: 129px;
+    background: #65D089;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(50px);
+    bottom: 15%;
+  }
+  #circulo3{
+    height: 175px;
+    width: 175px;
+    background: #205DA5;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(580px);
+    top: -10%;
+  }
+  
+  #circulo4{
+    height: 107px;
+    width: 107px;
+    background: #E1A346;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50px);
+    top: 15%;
+  }
+  
+  #circulo5{
+    height: 54px;
+    width: 54px;
+    background: #50228B;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-17px);
+    top: 30%;
+  }
+  
+  #circulo6{
+    height: 220px;
+    width: 220px;
+    background: #CD2658;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(580px);
+    bottom: -10%;
+  }
+  
+  #circulo7{
+    height: 130px;
+    width: 130px;
+    background: #F4F665;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(480px);
+    bottom: -8%;
+  }
+  
+  #circulo8{
+    height: 54px;
+    width: 54px;
+    background: #FFBCEC;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(540px);
+    top: -5%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .contenedor_seleccion{
+    margin: 10rem 6rem;
+    text-align: center;
+  }
+  
+  #circulo1{
+    height: 200px;
+    width: 200px;
+    background: #4C94AB;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-75px);
+    bottom: -5%;
+  }
+  
+  #circulo2{
+    height: 100px;
+    width: 100px;
+    background: #65D089;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(50px);
+    bottom: 10%;
+  }
+  #circulo3{
+    height: 175px;
+    width: 175px;
+    background: #205DA5;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(380px);
+    top: -10%;
+  }
+
+  #circulo8{
+    height: 54px;
+    width: 54px;
+    background: #FFBCEC;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(350px);
+    top: -3%;
+  }
+
+  #circulo4{
+    height: 107px;
+    width: 107px;
+    background: #E1A346;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50px);
+    top: 30%;
+  }
+  
+  #circulo5{
+    height: 54px;
+    width: 54px;
+    background: #50228B;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-17px);
+    top: 40%;
+  }
+  
+  #circulo6{
+    height: 220px;
+    width: 220px;
+    background: #CD2658;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(310px);
+    bottom: 25%;
+  }
+  
+  #circulo7{
+    height: 130px;
+    width: 130px;
+    background: #F4F665;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(400px);
+    bottom: 10%;
+  }
+
 }
 
